@@ -148,7 +148,6 @@ contract Voting is Ownable {
         newStatus = WorkflowStatus.ProposalsRegistrationStarted;
     }
 
-    VotesTallied
 
 
     
@@ -163,14 +162,12 @@ contract Voting is Ownable {
     }
     
     return winningProposalId;
-}
 
 
 
 
 
 
-    uint winningProposalId;
 
 
     event VoterRegistered(address voterAddress);
